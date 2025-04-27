@@ -3,7 +3,6 @@ def recusif_fibonacci(rank):
     if rank == 1 or rank == 0: return rank1
     return recusif_fibonacci(rank - 1) + recusif_fibonacci(rank - 2)
 
-print(recusif_fibonacci(8))
 
 def iteratif_fibonacci(rank):
     if rank == 1 or rank == 0:  return rank1
@@ -18,5 +17,4 @@ def iteratif_fibonacci(rank):
     
     return fibN
 
-print(iteratif_fibonacci(8))
 
